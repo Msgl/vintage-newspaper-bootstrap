@@ -1,6 +1,8 @@
 body{
     font-family: 'Old Standard TT', serif;
     background: rgb(240, 235, 191);
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 /* p::first-letter {
@@ -9,24 +11,62 @@ body{
   } */
 
 header{
-    font-family: 'Yeseva One', cursive;
+   font-family: 'Yeseva One', cursive;
+   padding-top: 30px;
+   padding-bottom: 30px;
 }
 
+
+
+.header-info p{
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.header-info h6{
+    font-weight: 700;
+}
+
+
 .double-border{
-    border-top: 2px solid black;
+    padding-top:12px;
+    position: relative;
+    border: 2px solid rgb(0, 0, 0);  
 }
 
 .double-border::before{
-    border-top: 2px solid black;
+    content: " ";
+    position: absolute;
+    z-index: 1;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    border: 2px solid #000000;
 }
 
+.double-border-nav{
+    padding-top:12px;
+    position: relative;
+    border-top:   2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.double-border-nav::before{
+    content: " ";
+    position: absolute;
+    z-index: 1;
+    top: 2px;
+    left: 0px;
+    right: 0px;
+    bottom: 2px;
+    border-top:   2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
 
 h1{
     font-size: 120px;
 }
-
-
-
 
 
 /* COLOR CLASSES */
