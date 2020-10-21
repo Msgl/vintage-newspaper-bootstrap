@@ -13,84 +13,98 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
    
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/50bb2e42ef2f4ec002980857890ea418?family=Carnivalee+Freakshow+Demo" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
 
     <title>Gazette</title>
 
 </head>
 
 <body>
+    <!-- Header: contains weather, title, edition-->
     <header>
-        <div class="container">
-            <div class="row blue">
-                <div class="col-4 rowone yellow">
-                    <p>today's sponsors</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 align-self-center text-center navborder">
+                    <h5>WEATHER INDICATIONS.</h5>
+                    <p>Fair and colder tonight. Thursday fair;<br>brisk to north winds</p>
                 </div>
-                <div class="col-4 rowtwo red">
-                    <hp> Newspaper title</h1>
+                <div class="col align-self-center text-center">
+                    <h1> The Evening Gazette</h1>
                 </div>
-                <div class="col-4 rowthree green">
-                    <p>weather forecast</p>
+                <div class="col-2 align-self-center text-center">
+                    <h4>LAST EDITION</h5>
                 </div>
-                <h2>HEADER</h2>
             </div>  
         </div>
     </header>
 
+    <!-- Navigation :contains issue number, date and price -->
     <nav>
-        <div class="container">
-            <div class="row">    
+        <div class="container-fluid">
+            <div class="row ">    
                 <div class="col-4 blue">
-                    <p>issue number</p>
+                    <p>Number 2023.</p>
                 </div>
-                <div class="col-4 yellow">
-                    <p>date</p>
+                <div class="col-4 text-center yellow">
+                    <p>WASHINGTON, WEDNESDAY, JANUARY 22, 1902.</p>
                 </div>
-                <div class="col-4 red">
-                    <p>price</p>
+                <div class="col-4 text-right red">
+                    <p>Price One Cent.</p>
                 </div>
             </div>
         </div>
     </nav>
 
-    <div class="parent-container d-flex">
-        <div class="container">
-            <div class="row">
+    <!-- Contents -->
+    <div class="parent-container d-flex ">
+        <div class="container-fluid">
+            <div class="row h-100 justify-content-center no-gutters">
+                
+                <!-- The content is divided into 2 big columns. This is the one on the left. -->
                 <div class="col-7 turquoise">
                     <h2>title</h2>
+                   
+                    <!-- The left-content is divided into 2 rows. This is the first row -->
                     <div class="row no-gutters">
-                        <div class="col-4 purple">
+                        <!-- This is the first column -->
+                        <div class="col-4 orange">
                             <p>content - text</p>
                         </div>
-                        <div class="col-8 red">
+                        <!-- This is the second column -->
+                        <div class="col-8 green">
                             <div class="d-flex flex-column">
-                                <div class="col-12 rowfour p-2 grey">
-                                    <p>image</p>
-                                </div>
-
-                                <div class="col-12 rowfive p-2">
+                                <div class="col-12 p-2">
                                     <div class="row no-gutters">
-                                        <div class="col-6 orange">
-                                            <p>content - text</p> 
-                                        </div>
-                                        <div class="col-6 yellow">
+                                        <div class="col-6 bisque">
                                             <p>content - text</p>
+                                            <img src="https://the-public-domain-review.imgix.net/collections/a-vision-of-isolating-technology-from-1906/28555158786_9c6c06d11b_b.jpg?w=1024" height="300px" width="300px"> 
+                                        </div>
+                                        <div class="col-6 turquoise">
+                                            <h3>PENNY POSTAGE IS APPROVED</h3>
+                                            <h6>Boards of Trade to Pass Upon the Problem.</h6>
+                                            <h5>ARGUMENT UPON THE MEASURE</h5>
                                         </div>
                                     </div>  
                                 </div>
-                        </div>       
+                            </div>       
                         </div>
                     </div>
+
+                    <!-- The left-content is divided into 2 rows. This is the second row -->
                     <div class="row no-gutters">
+                        <!-- This is the first column -->
                         <div class="col-4 greenyellow">
                             <p>content - text</p>
                         </div>
+                        <!-- This is the second column -->
                         <div class="col-8 red">
                             <div class="d-flex flex-column">
-                                <div class="col-12 rowfour p-2 grey">
-                                    <p>image</p>
+                                <div class="col-12 p-2 ">
+                                    <p>Title</p>
                                 </div>
-
-                                <div class="col-12 rowfive p-2">
+                                <div class="col-12 p-2">
                                     <div class="row no-gutters">
                                         <div class="col-6 orange">
                                             <p>content - text</p> 
@@ -100,12 +114,13 @@
                                         </div>
                                     </div>  
                                 </div>
-                        </div>       
+                            </div>       
                         </div>
                     </div>
                 </div>
 
-                <div class="col-5 blue">
+                <!-- The content is divided into 2 big columns. This is the one on the right. -->
+                <div class="col-5 blue ">
                     <div class="d-flex flex-row">
                     <div class="col-6 green">
                             <p>content - text</p>
@@ -114,13 +129,16 @@
                             <p>content - text</p>
                         </div>
                     </div>
-                    <div class="col-12 yellow">
-                        <p>image</p>
+                    <div class="d-flex flex-row">
+                    <div class="col-6 red">
+                        <img src="https://the-public-domain-review.imgix.net/collections/cartoon-portraits-of-leading-19th-century-figures-1873/7802388966_232d539425_o.jpg?w=600" width="auto" height="350px">
+                    </div>
+                    <div class="col-6 yellow">
+                        <p>content - text</p>
                     </div>
                 </div>
+                </div>
             </div>
-
-            
         </div>
     </div>
 </body>

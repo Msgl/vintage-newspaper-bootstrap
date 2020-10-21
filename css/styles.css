@@ -1,10 +1,35 @@
-
-
-
-header, nav{
-    height: 30px;
+body{
+    font-family: 'Old Standard TT', serif;
+    background: rgb(240, 235, 191);
 }
 
+/* p::first-letter {
+    font-size: 120%;
+    color: #8A2BE2;
+  } */
+
+header{
+    font-family: 'Yeseva One', cursive;
+}
+
+.double-border{
+    border-top: 2px solid black;
+}
+
+.double-border::before{
+    border-top: 2px solid black;
+}
+
+
+h1{
+    font-size: 120px;
+}
+
+
+
+
+
+/* COLOR CLASSES */
 .blue {
     background: blue;
 }
