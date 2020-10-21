@@ -6,19 +6,16 @@
      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
      <meta http-equiv="x-ua-compatible" content="ie=edge">
  
-    <!-- CSS only -->
+    <!-- Bootstrap  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css
-    ">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
-   
+    
+    <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
-    <link href="//db.onlinewebfonts.com/c/50bb2e42ef2f4ec002980857890ea418?family=Carnivalee+Freakshow+Demo" rel="stylesheet" type="text/css"/>
+    
+    <!-- FONT -->
     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
 
     <title>Gazette</title>
-
 </head>
 
 <body>
@@ -30,7 +27,7 @@
                     <h6>WEATHER INDICATIONS.</h5>
                     <p>Fair and colder tonight. Thursday fair;<br>brisk to north winds</p>
                 </div>
-                <div class="col align-self-start text-center">
+                <div class="col align-self-end text-center">
                     <h1> The Evening Gazette</h1>
                 </div>
                 <div class="col-1 align-self-end text-center double-border header-info">
@@ -45,7 +42,7 @@
     <nav class="double-border-nav">
         <div class="container-fluid">
             <div class="row ">    
-                <div class="col-2">
+                <div class="col-2 ">
                     <p>Number 2023.</p>
                 </div>
                 <div class="col-8 text-center">
@@ -59,87 +56,70 @@
     </nav>
 
     <!-- Contents -->
-    <div class="parent-container d-flex ">
+    <div class="parent-container">
         <div class="container-fluid">
-            <div class="row h-100 justify-content-center no-gutters">
-                
-                <!-- The content is divided into 2 big columns. This is the one on the left. -->
-                <div class="col-7 turquoise">
-                    <h2>title</h2>
-                   
-                    <!-- The left-content is divided into 2 rows. This is the first row -->
-                    <div class="row no-gutters">
-                        <!-- This is the first column -->
-                        <div class="col-4 orange">
-                            <p>content - text</p>
-                        </div>
-                        <!-- This is the second column -->
-                        <div class="col-8 green">
-                            <div class="d-flex flex-column">
-                                <div class="col-12 p-2">
-                                    <div class="row no-gutters">
-                                        <div class="col-6 bisque">
-                                            <p>content - text</p>
-                                            <img src="https://the-public-domain-review.imgix.net/collections/a-vision-of-isolating-technology-from-1906/28555158786_9c6c06d11b_b.jpg?w=1024" height="300px" width="300px"> 
-                                        </div>
-                                        <div class="col-6 turquoise">
-                                            <h3>PENNY POSTAGE IS APPROVED</h3>
-                                            <h6>Boards of Trade to Pass Upon the Problem.</h6>
-                                            <h5>ARGUMENT UPON THE MEASURE</h5>
-                                        </div>
-                                    </div>  
-                                </div>
-                            </div>       
-                        </div>
-                    </div>
 
-                    <!-- The left-content is divided into 2 rows. This is the second row -->
-                    <div class="row no-gutters">
-                        <!-- This is the first column -->
-                        <div class="col-4 greenyellow">
-                            <p>content - text</p>
-                        </div>
-                        <!-- This is the second column -->
-                        <div class="col-8 red">
-                            <div class="d-flex flex-column">
-                                <div class="col-12 p-2 ">
-                                    <p>Title</p>
-                                </div>
-                                <div class="col-12 p-2">
-                                    <div class="row no-gutters">
-                                        <div class="col-6 orange">
-                                            <p>content - text</p> 
-                                        </div>
-                                        <div class="col-6 yellow">
-                                            <p>content - text</p>
-                                        </div>
-                                    </div>  
-                                </div>
-                            </div>       
-                        </div>
-                    </div>
-                </div>
-
-                <!-- The content is divided into 2 big columns. This is the one on the right. -->
-                <div class="col-5 blue ">
-                    <div class="d-flex flex-row">
-                    <div class="col-6 green">
-                            <p>content - text</p>
-                        </div>
-                        <div class="col-6 bisque">
-                            <p>content - text</p>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-row">
-                    <div class="col-6 red">
-                        <img src="https://the-public-domain-review.imgix.net/collections/cartoon-portraits-of-leading-19th-century-figures-1873/7802388966_232d539425_o.jpg?w=600" width="auto" height="350px">
-                    </div>
-                    <div class="col-6 yellow">
-                        <p>content - text</p>
-                    </div>
-                </div>
+            <!-- This is the row that contains the headline -->
+            <div class="row">
+                <div class="col">
+                    <h2 class="title">Greatest Ocean Race</h2>
                 </div>
             </div>
+
+             <!-- The content is divided into 2 rows. This is the first one. -->
+            <div class="row">
+                <!-- This is the first column -->
+                <div class="col-2 orange">
+                            <p>content - text</p>
+                </div>
+
+                <!-- This is the second column - NESTED ROW-->
+                <div class="col-2 green">
+                    <div class="d-flex flex-column">
+                        <div class="col-12 p-2">
+                            <div class="row">
+                                <!-- first column - image -->
+                                <div class="col-12 bisque">
+                                    <img class="img-fluid" src="https://the-public-domain-review.imgix.net/collections/a-vision-of-isolating-technology-from-1906/28555158786_9c6c06d11b_b.jpg?w=1024" height="300px" width="300px"> 
+                                </div>
+                                <!-- second column - text -->
+                                <div class="col-12 turquoise">
+                                    <p>content - text</p>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>       
+                </div>
+
+                <!-- This is the third column -->
+                <div class="col-2 greenyellow">
+                    <h3>PENNY POSTAGE IS APPROVED</h3>
+                    <h6>Boards of Trade to Pass Upon the Problem.</h6>
+                    <h5>ARGUMENT UPON THE MEASURE</h5>
+                </div>
+
+                <!-- This is the forth column -->
+                <div class="col-2 red">
+                    <img src="https://the-public-domain-review.imgix.net/collections/cartoon-portraits-of-leading-19th-century-figures-1873/7802388966_232d539425_o.jpg?w=600" width="auto" height="350px">
+                </div>
+
+                <!-- This is the fifth column -->
+                <div class="col-2 greenyellow">
+                    <h3>PENNY POSTAGE IS APPROVED</h3>
+                    <h6>Boards of Trade to Pass Upon the Problem.</h6>
+                    <h5>ARGUMENT UPON THE MEASURE</h5>
+                </div>
+
+                <!-- This is the sixth column -->
+                <div class="col-2 blue">
+                    <h3>PENNY POSTAGE IS APPROVED</h3>
+                    <h6>Boards of Trade to Pass Upon the Problem.</h6>
+                    <h5>ARGUMENT UPON THE MEASURE</h5>
+                </div>                                              
+            </div>
+
+            <!-- The content is divided into 2 rows. This is the second one. -->
+            <!-- PENDING -->
         </div>
     </div>
 </body>

@@ -1,8 +1,8 @@
 body{
     font-family: 'Old Standard TT', serif;
     background: rgb(240, 235, 191);
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 130px;
+    padding-right: 130px;
 }
 
 /* p::first-letter {
@@ -10,17 +10,19 @@ body{
     color: #8A2BE2;
   } */
 
+
 header{
    font-family: 'Yeseva One', cursive;
    padding-top: 30px;
    padding-bottom: 30px;
 }
 
-
+h1{
+    font-size: 120px;
+}
 
 .header-info p{
     font-size: 12px;
-    line-height: 1.6;
 }
 
 .header-info h6{
@@ -48,7 +50,7 @@ header{
 .double-border-nav{
     padding-top:12px;
     position: relative;
-    border-top:   2px solid #000000;
+    border-top: 2px solid #000000;
     border-bottom: 2px solid #000000;
 }
 
@@ -60,14 +62,16 @@ header{
     left: 0px;
     right: 0px;
     bottom: 2px;
-    border-top:   2px solid #000000;
+    border-top: 2px solid #000000;
     border-bottom: 2px solid #000000;
 }
 
-h1{
-    font-size: 120px;
-}
 
+
+.title{
+    text-transform: uppercase;
+    font-weight: 700;
+}
 
 /* COLOR CLASSES */
 .blue {
